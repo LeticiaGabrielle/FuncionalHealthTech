@@ -1,0 +1,74 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-03T02:46:21.013Z",
+        "line": 8,
+        "name": "Validar direcionamento para o site da Funcional Health Tech.",
+        "description": "",
+        "id": "desafio-funcional-health-tech;validar-direcionamento-para-o-site-da-funcional-health-tech.",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10943000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Que acesso o site da Funcional Health Tech",
+            "match": {
+              "location": "steps.FuncionalTechSteps.queAcessoOSiteDaFuncionalHealthTech()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3543000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clico no link empresa",
+            "match": {
+              "location": "steps.FuncionalTechSteps.clicoNoLinkEmpresa()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 339000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Valido o direcionamento correto para o link empresa.",
+            "match": {
+              "location": "steps.FuncionalTechSteps.validoODirecionamentoCorretoParaOLinkEmpresa()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature"
+          }
+        ]
+      }
+    ],
+    "name": "Desafio Funcional Health Tech",
+    "description": "",
+    "id": "desafio-funcional-health-tech",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/desafioFuncional.feature",
+    "tags": [
+      {
+        "name": "@Feature",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
